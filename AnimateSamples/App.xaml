@@ -1,0 +1,104 @@
+﻿<Application x:Class="AnimateSamples.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:AnimateSamples"
+             >
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <Style x:Key="RotateButtonStyle" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid x:Name="LayoutRoot">
+                                <VisualStateManager.VisualStateGroups>
+                                    <VisualStateGroup x:Name="FocusStates">
+                                        <VisualState x:Name="Focused"/>
+                                        <VisualState x:Name="Unfocused"/>
+                                    </VisualStateGroup>
+                                    <VisualStateGroup x:Name="CommonStates">
+                                        <VisualState x:Name="Normal"/>
+                                        <VisualState x:Name="MouseOver"/>
+                                        <VisualState x:Name="Pressed"/>
+                                        <VisualState x:Name="Disabled"/>
+                                    </VisualStateGroup>
+                                </VisualStateManager.VisualStateGroups>
+                                <Border Margin="0" Background="#FF7078A7" BorderBrush="#FF394AAF" BorderThickness="1"/>
+                                <Path x:Name="ArrowPath" Fill="#FF0900FF" Stretch="Fill" Stroke="#FF0600A2" Margin="3.141,4.042,2.97,4.859" UseLayoutRounding="False" Data="M7.0149121,22.180555 L3.0169647,16.680561 L5.7029624,16.993296 C5.8695593,15.722496 5.9074836,13.997777 6.4526515,12.679677 C7.2023377,10.867096 7.6951351,10.159035 9.2012835,8.8668928 C10.51297,7.7415819 11.762622,7.2418647 13.137355,6.8666296 C14.307214,6.5473151 15.672203,6.3042188 18.010317,6.8050041 C19.759584,7.1796684 21.313828,7.761416 23.007519,9.3667879 C23.649752,9.9755306 24.238049,10.57807 24.701563,11.326815 C25.094707,11.961886 25.398081,12.702141 25.568451,13.640576 C25.81811,15.015744 26.092001,15.752277 25.694941,17.930174 C25.279827,19.87734 25.007389,20.679955 24.235826,21.983292 C23.478449,23.262665 22.332823,24.38821 20.946701,25.180634 C19.197422,26.180668 18.322783,26.430304 16.948349,26.618181 C16.948349,26.618181 17.697947,23.305109 17.697947,23.305109 C19.134846,22.80508 19.82206,22.555065 20.884115,21.367496 C20.884115,21.367496 22.007166,20.182358 22.445274,18.867409 C22.945066,17.367319 22.945047,16.742298 22.820105,15.679744 C22.637474,14.126604 22.508434,14.429586 22.196066,13.492031 C21.905205,12.619028 21.258959,12.054446 20.509272,11.304402 C19.738354,10.533115 19.322268,10.429351 18.135265,9.9918251 C17.028763,9.583971 16.136101,9.4292917 14.636728,9.679307 C13.237922,9.9125528 12.824986,9.9918242 11.76293,10.741869 C10.950738,11.315454 9.7637663,12.366965 9.3264494,13.679543 C8.8948927,14.974832 8.7639818,17.179749 8.7639818,17.179749 L11.575207,17.554771 z"/>
+                                <Ellipse x:Name="OuterGuideCircle" Stroke="#8E05042D" Margin="6,4,3,5" Visibility="Collapsed" d:IsHidden="True"/>
+                                <Ellipse x:Name="InnerGuideCircle" Stroke="#8E05042D" Margin="9,7,6,8" Visibility="Collapsed" d:IsHidden="True"/>
+                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Visibility="Collapsed"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="StraightArrowButtonStyle" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid x:Name="LayoutRoot">
+                                <VisualStateManager.VisualStateGroups>
+                                    <VisualStateGroup x:Name="FocusStates">
+                                        <VisualState x:Name="Focused"/>
+                                        <VisualState x:Name="Unfocused"/>
+                                    </VisualStateGroup>
+                                    <VisualStateGroup x:Name="CommonStates">
+                                        <VisualState x:Name="Normal"/>
+                                        <VisualState x:Name="MouseOver"/>
+                                        <VisualState x:Name="Pressed"/>
+                                        <VisualState x:Name="Disabled"/>
+                                    </VisualStateGroup>
+                                </VisualStateManager.VisualStateGroups>
+                                <Border Margin="0" Background="#FF7078A7" BorderBrush="#FF394AAF" BorderThickness="1" d:LayoutOverrides="Width, Height">
+                                    <Path x:Name="ArrowPath" Fill="#FF0900FF" Stretch="Fill" Stroke="#FF0600A2" Margin="3.127,2.703,3.127,3.24" UseLayoutRounding="False" Data="M15.601642,2.7057776 L3.7913415,10.583 L7.7573957,10.643761 L7.7261553,16.175392 L24.249769,16.143841 L24.249769,10.546005 L28.039841,10.550004 z"/>
+                                </Border>
+                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Visibility="Collapsed"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            
+            <Style x:Key="DiagonalArrowButtonStyle" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid x:Name="LayoutRoot" d:DesignWidth="30" d:DesignHeight="30" RenderTransformOrigin="0.5,0.5">
+                            	<Grid.RenderTransform>
+                            		<TransformGroup>
+                            			<ScaleTransform/>
+                            			<SkewTransform AngleY="-0.27"/>
+                            			<RotateTransform/>
+                            			<TranslateTransform Y="-0.12"/>
+                            		</TransformGroup>
+                            	</Grid.RenderTransform>
+                                <VisualStateManager.VisualStateGroups>
+                                    <VisualStateGroup x:Name="FocusStates">
+                                        <VisualState x:Name="Focused"/>
+                                        <VisualState x:Name="Unfocused"/>
+                                    </VisualStateGroup>
+                                    <VisualStateGroup x:Name="CommonStates">
+                                        <VisualState x:Name="Normal"/>
+                                        <VisualState x:Name="MouseOver"/>
+                                        <VisualState x:Name="Pressed"/>
+                                        <VisualState x:Name="Disabled"/>
+                                    </VisualStateGroup>
+                                </VisualStateManager.VisualStateGroups>
+                                <Border Margin="0" Background="#FF7078A7" BorderBrush="#FF394AAF" BorderThickness="1" d:LayoutOverrides="Width, Height">
+                                    <Path x:Name="ArrowPath" Fill="#FF0900FF" Stretch="Fill" Stroke="#FF0600A2" Margin="4.542,3.871,4.209,3.73" UseLayoutRounding="False" Data="M30.623079,2.6643758 L18.284615,2.6771753 L22.028803,4.4858193 L6.9676375,13.134091 L12.83878,15.507596 L26.70904,7.1367002 L30.453228,8.9853525 z"/>
+                                </Border>
+                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Visibility="Collapsed"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

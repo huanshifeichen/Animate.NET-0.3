@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimateSamples.SL", "AnimateSamples\AnimateSamples.SL.csproj", "{6DFF1454-516A-4AE5-890B-9AAE666D715B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA5EE492-823D-424F-8B7C-44D794B2A9F6} = {CA5EE492-823D-424F-8B7C-44D794B2A9F6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimateSamples.Web", "AnimateSamples.Web\AnimateSamples.Web.csproj", "{CA5EE492-823D-424F-8B7C-44D794B2A9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animate.NET", "Animate.NET\Animate.NET.csproj", "{6EBBDCFE-CCFA-47B7-9A25-ADBC0C1B8116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animate.NET.WP7", "Animate.NET\Animate.NET.WP7.csproj", "{C5807BE6-A825-4726-882E-5CB53E151AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animate.NET.WPF", "Animate.NET.WPF\Animate.NET.WPF.csproj", "{B3A8D9CD-86A5-4195-A638-411771EB9BC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.WPF", "Demo.WPF\Demo.WPF.csproj", "{4992F580-9640-4938-98A0-ADEBAC49675B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DFF1454-516A-4AE5-890B-9AAE666D715B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFF1454-516A-4AE5-890B-9AAE666D715B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFF1454-516A-4AE5-890B-9AAE666D715B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFF1454-516A-4AE5-890B-9AAE666D715B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5EE492-823D-424F-8B7C-44D794B2A9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5EE492-823D-424F-8B7C-44D794B2A9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5EE492-823D-424F-8B7C-44D794B2A9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5EE492-823D-424F-8B7C-44D794B2A9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBBDCFE-CCFA-47B7-9A25-ADBC0C1B8116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBBDCFE-CCFA-47B7-9A25-ADBC0C1B8116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBBDCFE-CCFA-47B7-9A25-ADBC0C1B8116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBBDCFE-CCFA-47B7-9A25-ADBC0C1B8116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5807BE6-A825-4726-882E-5CB53E151AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5807BE6-A825-4726-882E-5CB53E151AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5807BE6-A825-4726-882E-5CB53E151AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5807BE6-A825-4726-882E-5CB53E151AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A8D9CD-86A5-4195-A638-411771EB9BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A8D9CD-86A5-4195-A638-411771EB9BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A8D9CD-86A5-4195-A638-411771EB9BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A8D9CD-86A5-4195-A638-411771EB9BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4992F580-9640-4938-98A0-ADEBAC49675B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4992F580-9640-4938-98A0-ADEBAC49675B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4992F580-9640-4938-98A0-ADEBAC49675B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4992F580-9640-4938-98A0-ADEBAC49675B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

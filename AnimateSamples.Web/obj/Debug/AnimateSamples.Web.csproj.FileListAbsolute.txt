@@ -1,0 +1,17 @@
+C:\Source\Animate.NET\AnimateSamples.Web\bin\AnimateSamples.Web.dll
+C:\Source\Animate.NET\AnimateSamples.Web\bin\AnimateSamples.Web.pdb
+C:\Source\Animate.NET\AnimateSamples.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\Animate.NET\AnimateSamples.Web\obj\Debug\AnimateSamples.Web.dll
+C:\Source\Animate.NET\AnimateSamples.Web\obj\Debug\AnimateSamples.Web.pdb
+C:\Source\Advance\Animate.NET\AnimateSamples.Web\bin\AnimateSamples.Web.dll
+C:\Source\Advance\Animate.NET\AnimateSamples.Web\bin\AnimateSamples.Web.pdb
+C:\Source\Advance\Animate.NET\AnimateSamples.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\Advance\Animate.NET\AnimateSamples.Web\obj\Debug\AnimateSamples.Web.dll
+C:\Source\Advance\Animate.NET\AnimateSamples.Web\obj\Debug\AnimateSamples.Web.pdb
+C:\Source\Animate.NET\AnimateSamples.Web\obj\Debug\Decl\AnimateSamples.Web.dll
+C:\Source\Animate.NET\AnimateSamples.Web\obj\Debug\Decl\AnimateSamples.Web.pdb
+D:\firefoxDownload\Animate.NET-0.3\AnimateSamples.Web\bin\AnimateSamples.Web.dll
+D:\firefoxDownload\Animate.NET-0.3\AnimateSamples.Web\bin\AnimateSamples.Web.pdb
+D:\firefoxDownload\Animate.NET-0.3\AnimateSamples.Web\obj\Debug\AnimateSamples.Web.csprojResolveAssemblyReference.cache
+D:\firefoxDownload\Animate.NET-0.3\AnimateSamples.Web\obj\Debug\AnimateSamples.Web.dll
+D:\firefoxDownload\Animate.NET-0.3\AnimateSamples.Web\obj\Debug\AnimateSamples.Web.pdb

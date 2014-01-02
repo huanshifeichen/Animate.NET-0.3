@@ -1,0 +1,10 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="AnimateSamples.SL" EntryPointType="AnimateSamples.App" RuntimeVersion="4.0.60310.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="AnimateSamples.SL" Source="AnimateSamples.SL.dll" />
+    <AssemblyPart x:Name="Animate.NET" Source="Animate.NET.dll" />
+    <AssemblyPart x:Name="Microsoft.Expression.Interactions" Source="Microsoft.Expression.Interactions.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.DataAnnotations" Source="System.ComponentModel.DataAnnotations.dll" />
+    <AssemblyPart x:Name="System.Windows.Interactivity" Source="System.Windows.Interactivity.dll" />
+    <AssemblyPart x:Name="System.Windows.Ria" Source="System.Windows.Ria.dll" />
+  </Deployment.Parts>
+</Deployment>

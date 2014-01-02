@@ -1,0 +1,51 @@
+﻿<UserControl
+     x:Class="AnimateSamples.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:local="clr-namespace:AnimateSamples"
+    xmlns:my="clr-namespace:AnimateSamples.BodyControls"
+    mc:Ignorable="d"
+    d:DesignWidth="1100" d:DesignHeight="900" BorderThickness="2" 
+    >
+    
+    <Grid x:Name="LayoutRoot" Background="#FF020C2C">
+        <StackPanel Margin="0,50,0,0" Orientation="Vertical">
+            <TextBlock x:Name="Title" Text="Animate.NET Samples" HorizontalAlignment="Center" FontSize="48" Foreground="#FFC8D221" FontFamily="Aharoni" Margin="0,0,0,24"/>
+        	<StackPanel x:Name="ButtonBar1" VerticalAlignment="Top" Orientation="Horizontal" Height="24" Width="700">
+        		<Button x:Name="btnFadeIn" HorizontalAlignment="Left" Margin="2,0,0,0" Width="136" Height="{Binding Height, ElementName=ButtonBar}" Content="Fade In" Click="btnFadeIn_Click"/>
+        		<Button x:Name="btnFadeOut" HorizontalAlignment="Left" Margin="4,0,0,0" Width="136" Height="{Binding Height, ElementName=ButtonBar}" Content="Fade Out" Click="btnFadeOut_Click" />
+                <Button x:Name="btnCrossFade" HorizontalAlignment="Left" Margin="4,0,0,0" Width="136" Height="{Binding Height, ElementName=ButtonBar}" Content="Cross Fade" Click="btnCrossFade_Click" />
+                <Button x:Name="btnRotateBy" HorizontalAlignment="Left" Margin="4,0,0,0" Width="136" Height="{Binding Height, ElementName=ButtonBar}" Content="Rotate By" Click="btnRotateBy_Click" />
+        		<Button x:Name="btnRotateTo" HorizontalAlignment="Left" Margin="4,0,0,0" Width="136" Height="{Binding Height, ElementName=ButtonBar}" Content="Rotate To" Click="btnRotateTo_Click" />
+            </StackPanel>
+            <StackPanel x:Name="ButtonBar2" VerticalAlignment="Top" Orientation="Horizontal" Height="24" Width="700" Margin="0,4,0,0">
+                <Button x:Name="btnMoveTo" Margin="2,0,0,0" Width="136" Height="{Binding Height, ElementName=ButtonBar}" Content="Move To" Click="btnMoveTo_Click" />
+                <Button x:Name="btnMoveBy" Margin="4,0,0,0" Width="136" Height="{Binding Height, ElementName=ButtonBar}" Content="Move By" Click="btnMoveBy_Click" />
+                <Button x:Name="btnResizeTo" Margin="4,0,0,0" Width="136" Content="Resize To" Height="{Binding Height, ElementName=ButtonBar}" Click="btnResizeTo_Click" />
+                <Button x:Name="btnResizeBy" Margin="4,0,0,0" Width="136" Content="Resize By" Height="{Binding Height, ElementName=ButtonBar}" Click="btnResizeBy_Click" />
+                <Button x:Name="btnGroup" Margin="4,0,0,0" Width="136" HorizontalAlignment="Left" Height="{Binding Height, ElementName=ButtonBar}" Content="Group" Click="btnGroup_Click" />
+            </StackPanel>
+            <Border BorderBrush="#FF24D2D5" BorderThickness="2" Margin="0,6,0,0" VerticalAlignment="Center" HorizontalAlignment="Center">
+        		<Canvas x:Name="MainStage" Height="500" Width="700" Clip="M0.5,0.5 L699.5,0.5 L699.5,499.5 L0.5,499.5 z">
+        			<Canvas.Background>
+        				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        					<GradientStop Color="#FF271D5E"/>
+        					<GradientStop Color="#FF3B46A8" Offset="1"/>
+        				</LinearGradientBrush>
+        			</Canvas.Background>
+                    <my:Eye Canvas.Left="8" Canvas.Top="33" x:Name="eyeball" />
+                    <my:FriendlyGuyWhole Canvas.Left="87" Canvas.Top="250" x:Name="guy" />
+                    <my:FriendlyGuy x:Name="FriendlyGuy" Height="100" Canvas.Left="430" Canvas.Top="83" Width="100" RenderTransformOrigin="0.5,0.5">
+                    	<my:FriendlyGuy.RenderTransform>
+                    		<CompositeTransform ScaleX="2" ScaleY="2"/>
+                    	</my:FriendlyGuy.RenderTransform>
+                    </my:FriendlyGuy>
+                    <TextBlock Canvas.Left="408" Canvas.Top="474" Height="Auto" Name="textBlock1" Text="Click on a character to watch it animate." Width="Auto" FontSize="14" />
+                </Canvas>
+        	</Border>
+            <local:HappyFaceControlBoard x:Name="ControlBoard" Margin="0,5,0,0" Width="700" HorizontalAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</UserControl>

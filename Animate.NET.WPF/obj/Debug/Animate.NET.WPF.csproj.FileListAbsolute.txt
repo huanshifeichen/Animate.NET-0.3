@@ -1,0 +1,7 @@
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET.WPF\obj\Debug\Animate.NET.WPF.csprojResolveAssemblyReference.cache
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET.WPF\obj\Debug\Animate.NET.dll
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET.WPF\obj\Debug\Animate.NET.pdb
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET.WPF\bin\Debug\Animate.NET.dll
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET.WPF\bin\Debug\Animate.NET.pdb
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET.WPF\obj\Debug\Animator.Properties.Resources.resources
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET.WPF\obj\Debug\Animate.NET.WPF.csproj.GenerateResource.Cache

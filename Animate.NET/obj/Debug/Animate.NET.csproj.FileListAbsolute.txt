@@ -1,0 +1,17 @@
+C:\Source\Animate.NET\Animate.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\Animate.NET\Animate.NET\Bin\Debug\Animate.NET.dll
+C:\Source\Animate.NET\Animate.NET\Bin\Debug\Animate.NET.pdb
+C:\Source\Animate.NET\Animate.NET\obj\Debug\Animate.NET.dll
+C:\Source\Animate.NET\Animate.NET\obj\Debug\Animate.NET.pdb
+C:\Source\Advance\Animate.NET\Animate.NET\Bin\Debug\Animate.NET.dll
+C:\Source\Advance\Animate.NET\Animate.NET\Bin\Debug\Animate.NET.pdb
+C:\Source\Advance\Animate.NET\Animate.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\Advance\Animate.NET\Animate.NET\obj\Debug\Animate.NET.dll
+C:\Source\Advance\Animate.NET\Animate.NET\obj\Debug\Animate.NET.pdb
+C:\Source\Animate.NET\Animate.NET\obj\Debug\Decl\Animate.NET.dll
+C:\Source\Animate.NET\Animate.NET\obj\Debug\Decl\Animate.NET.pdb
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET\Bin\Debug\Animate.NET.dll
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET\Bin\Debug\Animate.NET.pdb
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET\obj\Debug\Animate.NET.csprojResolveAssemblyReference.cache
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET\obj\Debug\Animate.NET.dll
+D:\firefoxDownload\Animate.NET-0.3\Animate.NET\obj\Debug\Animate.NET.pdb

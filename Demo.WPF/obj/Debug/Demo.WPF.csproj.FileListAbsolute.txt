@@ -1,0 +1,17 @@
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\bin\Debug\Demo.WPF.exe.config
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\bin\Debug\Demo.WPF.exe
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\bin\Debug\Demo.WPF.pdb
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\bin\Debug\Animate.NET.dll
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\bin\Debug\Animate.NET.pdb
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.csprojResolveAssemblyReference.cache
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\MainWindow.baml
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Views\TestRemoveStory.baml
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\MainWindow.g.cs
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Views\TestRemoveStory.g.cs
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\App.g.cs
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF_MarkupCompile.cache
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.g.resources
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.Properties.Resources.resources
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.csproj.GenerateResource.Cache
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.exe
+D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.pdb

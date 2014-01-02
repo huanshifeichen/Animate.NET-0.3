@@ -1,0 +1,5 @@
+C:\Source\Advance\Animate.NET\Animate.NET\Bin\Debug\Animate.NET.dll
+C:\Source\Advance\Animate.NET\Animate.NET\Bin\Debug\Animate.NET.pdb
+C:\Source\Advance\Animate.NET\Animate.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\Advance\Animate.NET\Animate.NET\obj\Debug\Animate.NET.dll
+C:\Source\Advance\Animate.NET\Animate.NET\obj\Debug\Animate.NET.pdb
