@@ -70,5 +70,13 @@ namespace Animator
             HeightAnimation.KeyFrames[0].Value = Height;
             HeightAnimation.KeyFrames[0].KeyTime = KeyTime.FromTimeSpan(AnimationLength);
         }
+
+
+
+        protected override void OnStoryboardCompleted()
+        {
+            
+            base.OnStoryboardCompleted();
+        }
     }
 }

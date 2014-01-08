@@ -3,6 +3,29 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="TestRemoveStory" Height="300" Width="300">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Canvas Name="canvasBoard">
+            <Ellipse x:Name="ellipseOne"
+                     Fill="Blue"
+                     Width="100"
+                     Height="200"></Ellipse>
+        </Canvas>
+        <StackPanel Grid.Column="1">
+            <TextBox Name="tb1"></TextBox>
+            <Button Content="SizeAnimation" Click="SizeAnimation_Click"></Button>
+            <Button Content="SizeAniByInput"
+                    Click="SizeAniByInput_Click"></Button>
+            <Button Content="PositionByInput"
+                    Click="PositionAni_Click"></Button>
+            <Button Content="ToggleOpacity"
+                    Click="ToggleOpacity_Click"></Button>
+            <Button Content="RotateAnimation" Click="RotateEllipse_Click">
+            </Button>
+            <Button Content="GCCollect"
+                    Click="GCCollect_Click"></Button>
+        </StackPanel> 
     </Grid>
 </Window>

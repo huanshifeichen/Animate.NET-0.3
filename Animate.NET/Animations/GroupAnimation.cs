@@ -73,5 +73,13 @@ namespace Animator
                     };
 			}
         }
+
+        #region 自定义公共方法
+        public GroupAnimation Add(Animation animation)
+        {
+            Animations.Add(animation);
+            return this;
+        }
+        #endregion
     }
 }

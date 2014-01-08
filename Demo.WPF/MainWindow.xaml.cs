@@ -27,11 +27,18 @@ namespace Demo.WPF
 
         private void StackPanel_Click_1(object sender, RoutedEventArgs e)
         {
+            #region 统一打开窗口
+
             var btn = e.OriginalSource as Button;
             string content = btn.Content.ToString();
             string name = this.GetType().Namespace + ".Views." + content;
             Window win = Activator.CreateInstance(Type.GetType(name)) as Window;
             win.Show();
+            #endregion
         }
+
+
+
+
     }
 }
