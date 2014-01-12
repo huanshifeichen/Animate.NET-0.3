@@ -15,3 +15,6 @@ D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.Properties.Resour
 D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.csproj.GenerateResource.Cache
 D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.exe
 D:\firefoxDownload\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.pdb
+F:\gitlib\Animate.NET-0.3\Demo.WPF\bin\Debug\Demo.WPF.exe.config
+F:\gitlib\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.exe
+F:\gitlib\Animate.NET-0.3\Demo.WPF\obj\Debug\Demo.WPF.pdb

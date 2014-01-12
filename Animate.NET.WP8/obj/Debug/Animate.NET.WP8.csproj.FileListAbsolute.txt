@@ -1,0 +1,4 @@
+F:\gitlib\Animate.NET-0.3\Animate.NET.WP8\Bin\Debug\Animate.NET.dll
+F:\gitlib\Animate.NET-0.3\Animate.NET.WP8\Bin\Debug\Animate.NET.pdb
+F:\gitlib\Animate.NET-0.3\Animate.NET.WP8\obj\Debug\Animate.NET.dll
+F:\gitlib\Animate.NET-0.3\Animate.NET.WP8\obj\Debug\Animate.NET.pdb
